@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Support</string>
+    <string name="title_section1">Talk To Us</string>
+    <string name="title_section2">FAQs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="SQL_CREATE_ENTRIES"> "CREATE TABLE " + FeedReaderContract.FeedEntry.TABLE_NAME + " (" +
+                    FeedReaderContract.FeedEntry._ID + " INTEGER PRIMARY KEY," +
+                    FeedReaderContract.FeedEntry.Messages + " TEXT," +
+                    FeedReaderContract.FeedEntry.isMine + " INTEGER)"</string>
+</resources>
