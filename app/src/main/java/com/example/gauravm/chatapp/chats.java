@@ -176,8 +176,8 @@ public class chats extends Fragment implements OnClickListener {
                     chatMessage.body = message;
                     msg_edittext.setText("");
                     chatAdapter.add(chatMessage);
-                    chatMessage.Date = CommonMethods.getCurrentDate();
-                    chatMessage.Time = CommonMethods.getCurrentTime();
+                   // chatMessage.Date = CommonMethods.getCurrentDate();
+                    // chatMessage.Time = CommonMethods.getCurrentTime();
                     chatAdapter.notifyDataSetChanged();
 
 
@@ -191,8 +191,8 @@ public class chats extends Fragment implements OnClickListener {
                     chatMessage.body = message;
                     msg_edittext.setText("");
                     chatAdapter.add(chatMessage);
-                    chatMessage.Date = CommonMethods.getCurrentDate();
-                    chatMessage.Time = CommonMethods.getCurrentTime();
+                   // chatMessage.Date = CommonMethods.getCurrentDate();
+                   // chatMessage.Time = CommonMethods.getCurrentTime();
                     chatAdapter.notifyDataSetChanged();
                 }
             }
@@ -237,8 +237,8 @@ public class chats extends Fragment implements OnClickListener {
                                chatMessage.body = message;
                                msg_edittext.setText("");
                                chatAdapter.add(chatMessage);
-                               chatMessage.Date = CommonMethods.getCurrentDate();
-                               chatMessage.Time = CommonMethods.getCurrentTime();
+                              // chatMessage.Date = CommonMethods.getCurrentDate();
+                              // chatMessage.Time = CommonMethods.getCurrentTime();
                                chatAdapter.notifyDataSetChanged();
                                 n=n+1;
 
@@ -250,8 +250,8 @@ public class chats extends Fragment implements OnClickListener {
                                chatMessage.body = message;
                                msg_edittext.setText("");
                                chatAdapter.add(chatMessage);
-                               chatMessage.Date = CommonMethods.getCurrentDate();
-                               chatMessage.Time = CommonMethods.getCurrentTime();
+                             //  chatMessage.Date = CommonMethods.getCurrentDate();
+                              // chatMessage.Time = CommonMethods.getCurrentTime();
                                chatAdapter.notifyDataSetChanged();
                                n=n+1;
                            }

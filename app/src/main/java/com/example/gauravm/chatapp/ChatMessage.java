@@ -6,7 +6,7 @@ import java.util.Random;
 public class ChatMessage {
 
     public String body, sender, receiver, senderName;
-    public String Date, Time;
+   // public String Date, Time;
     public String msgid;
     public boolean isMine;// Did I send the message.
 
